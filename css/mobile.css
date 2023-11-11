@@ -1,0 +1,89 @@
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+  #banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.58), rgba(0, 0, 0, 0.6)),
+      url(../images/banner.jpg);
+    background-size: cover;
+    width: 100%;
+    height: auto;
+  }
+
+  #banner .name {
+    padding: 200px 0;
+    color: var(--white-color);
+    text-align: center;
+    font-size: 40px;
+  }
+  /* mobile #navbar */
+  #navbar .container .border,
+  #navbar .container .border-right,
+  #navbar .container .border-left {
+    border: none;
+  }
+  .mb-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #navbar .container a {
+    padding: 10px 10px;
+  }
+
+  /* set about */
+
+  #about .container {
+    display: block;
+  }
+  .title {
+    min-height: 300px;
+  }
+  .section {
+    min-height: 300px;
+  }
+  #job-info .container {
+    display: block;
+    min-height: 500px;
+  }
+  #job-info .container div {
+    margin: 20px 20px;
+  }
+
+  /* certificate chung chi giai thuongw*/
+  #certificate .container h2 {
+    font-size: 30px;
+  }
+  .certificate-content {
+    display: block;
+  }
+  .grid-2 {
+    display: block;
+    margin: 20px 0px;
+  }
+  .grey-content {
+    margin: 10px 0px;
+  }
+  .certificate-title {
+    border-bottom: 1px solid orange;
+  }
+  .line {
+    display: none;
+  }
+  .border-left2 {
+    border-left: none;
+  }
+
+  /* project */
+  .project-content {
+    display: block;
+  }
+
+  /* digital-cv  */
+  .grid-4 {
+    display: block;
+  }
+  #scopes .grid-2 {
+    display: block;
+  }
+}

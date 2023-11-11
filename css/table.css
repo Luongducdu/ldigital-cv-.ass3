@@ -1,0 +1,62 @@
+@media (max-width: 1024px) {
+  .container {
+    max-width: 1024x;
+    line-height: 1.2;
+  }
+  /* table navbar */
+  #navbar .nav-name div,
+  #navbar .nav-name img {
+    display: none;
+  }
+  /* about  font text*/
+  .margin-tb {
+    font-size: 1.6rem;
+  }
+  #target p,
+  #personal-info .mt-info {
+    font-size: 14px;
+  }
+  /* info */
+  #job-info .grid-3 {
+    grid-template-columns: 1fr 1fr;
+  }
+  .job-content h2,
+  .job-content td {
+    font-size: 20px;
+  }
+  .font-15 {
+    font-size: 17px;
+  }
+  .font-12 {
+    font-size: 14px;
+  }
+  #job-info .job-content .info-content p {
+    font-size: 15px;
+  }
+  #job-info .job-content {
+    padding-top: 30px;
+  }
+  #job-info .job-content i {
+    font-size: 15px;
+  }
+  #job-info .job-content i {
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+  }
+  #job-info .job-content div {
+    font-size: 15px;
+  }
+
+  /* digital-cv */
+  .grid-4 {
+    display: block;
+  }
+  #project ul .grid-28,
+  #team .grid-28,
+  #timeline .grid-28,
+  #primary .grid-28 {
+    display: block;
+    text-align: center;
+  }
+}
